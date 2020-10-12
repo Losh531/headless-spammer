@@ -4,6 +4,6 @@
     "log_path": "",
     "port": 4444,
     "cli_args": {
-      "webdriver.chrome.driver": "node_modules/chromedriver/lib/chromedriver/chromedriver.exe"
+      "webdriver.chrome.driver": "/usr/src/app/node_modules/chromedriver/lib/chromedriver/chromedriver"
     }
   }
