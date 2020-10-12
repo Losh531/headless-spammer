@@ -2,6 +2,7 @@ FROM node:latest
 # Create app directory
 WORKDIR /usr/src/app
 COPY package*.json ./
+RUN npm install chromedriver --save
 RUN npm install
 RUN npm ci --only=production
 COPY . .
